@@ -1,0 +1,22 @@
+{
+    "name": "forecho/yii2-selectize",
+    "description": "Selectize.js widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","selectize"],
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "forecho",
+            "email": "caizhenghai@gmail.com"
+        }
+    ],
+    "require": {
+        "bower-asset/selectize": "0.11.1",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "forecho\\selectize\\": ""
+        }
+    }
+}
